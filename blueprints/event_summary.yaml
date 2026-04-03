@@ -666,6 +666,7 @@ action:
 - alias: Update label with title
   variables:
     label: '{{response.title}}'
+    responsetext: '{{response.response_text}}'
 - if:
   - condition: template
     value_template: !input notify
